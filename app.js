@@ -18,7 +18,7 @@ const timer = [
 ];
 
 const countdownContainer = document.querySelector(".countdown");
-const countToDate = new Date().setHours(new Date().getHours() + 340);
+const countToDate = new Date().setHours(new Date().getHours() + 330);
 let previous;
 
 function showTimer() {
