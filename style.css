@@ -37,10 +37,38 @@ body {
     letter-spacing: 5px;
 }
 
+.countdown {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    margin: auto;
+}
+
 .socials {
     display: flex;
     align-items: center;
     gap: 1.3rem;
+}
+
+.flip-card {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 13px 0 0 black;
+    position: relative;
+}
+
+p {
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: var(--grayish-blue);
+    margin-top: 40px;
+}
+
+.top-flip,
+.bottom-flip {
+    position: absolute;
 }
 
 .socials a {
