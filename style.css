@@ -1,2 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
 
+:root {
+    --Grayishblue: hsl(237, 18%, 59%);
+    --Softred: hsl(345, 95%, 68%);
+    --White: hsl(0, 0%, 100%);
+    --Darkdesaturatedblue: hsl(236, 21%, 26%);
+    --Verydarkblue: hsl(235, 16%, 14%);
+    --Verydarkblueblack: hsl(234, 17%, 12%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Text', sans-serif;
+    background-image: url(./images/bg-stars.svg);
+    background-color: var(--Verydarkblueblack);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.container h1 {
+    color: var(--White);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+}
+
+.socials a {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--Grayishblue);
+}
+
+.socials a:hover {
+    color: var(--Softred);
+}
